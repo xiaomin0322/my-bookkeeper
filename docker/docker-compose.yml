@@ -21,6 +21,8 @@ services:
   zookeeper:
     image: zookeeper
     hostname: zookeeper
+    ports:
+        - "2181:2181"
 
   bookie1:
     image: apache/bookkeeper
