@@ -25,7 +25,7 @@ PORT0=${PORT0:-${BOOKIE_PORT}}
 PORT0=${PORT0:-3181}
 BK_DATA_DIR=${BK_DATA_DIR:-"/data/bookkeeper"}
 BK_CLUSTER_ROOT_PATH=${BK_CLUSTER_ROOT_PATH:-""}
-
+BOOKIE_HTTP_PORT=8080
 # bk env vars to replace values in config files
 export BK_HOME=/opt/bookkeeper
 # metadata service
