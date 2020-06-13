@@ -30,7 +30,9 @@ ENV BK_USER=bookkeeper
 ENV BK_HOME=/opt/bookkeeper
 ENV JAVA_HOME=/usr/lib/jvm/jre-1.8.0
 #改成本地文件，下载太慢了
+#wget https://archive.apache.org/dist/bookkeeper/bookkeeper-${BK_VERSION}/${DISTRO_NAME}.tar.gz
 COPY bookkeeper-server-4.9.0-bin.tar.gz  /opt/
+# wget -q https://bootstrap.pypa.io/get-pip.py
 COPY get-pip.py  /opt/
 
 # Download Apache Bookkeeper, untar and clean up
