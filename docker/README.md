@@ -240,3 +240,6 @@ Use them, and replace the default [CMD] when you wanted to do things other than 
 # License
 
 View [license information](https://github.com/apache/bookkeeper/blob/master/LICENSE) for the software contained in this image.
+
+
+docker build -t apache/bookkeeper:zzm .
